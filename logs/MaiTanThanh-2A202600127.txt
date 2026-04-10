@@ -1,0 +1,84 @@
+======================================================================
+VinUni RAG Benchmark — HeaderAwareChunker + Voyage AI
+Ngày chạy: 2026-04-10 16:44:13
+Tổng chunks: 237
+======================================================================
+
+──────────────────────────────────────────────────────────────────────
+Q1: Good academic standing
+Query: What are all the conditions a student must maintain to stay in good academic standing at VinUni?
+Expected docs: Scholarship_Maintenance_Criteria, Student_Academic_Integrity, Student_Award_Policy, Student_Code_of_Conduct
+
+Top-3 Retrieved Chunks:
+  #1 ✅ score=0.5902  source=15_Student_Code_of_Conduct.md
+      preview: ### Status and Details This document specifies rules and regulations that govern student affairs for programs of VinUniv...
+  #2 ✅ score=0.5893  source=12_Scholarship_Maintenance_Criteria.md
+      preview: ## 3. Criteria to maintain the entry merit-based scholarship and financial aid support 1.      Maintaining a cumulative ...
+  #3 ✅ score=0.5890  source=13_Student_Academic_Integrity.md
+      preview: ## 10. Related Documents - Student Handbook - Academic Regulations - Student Affairs Regulations - Student Code of Condu...
+
+Relevant in top-3: 3/3 → Score: 2/2
+
+──────────────────────────────────────────────────────────────────────
+Q2: Campus safety regulations
+Query: What safety and conduct regulations must students follow when using VinUni campus facilities?
+Expected docs: Lab_Management_Regulations, Quy_Dinh_Xu_Ly_Su_Co_Chay, Student_Code_of_Conduct, Sexual_Misconduct_Response_Guideline
+
+Top-3 Retrieved Chunks:
+  #1 ✅ score=0.6242  source=15_Student_Code_of_Conduct.md
+      preview: 1. To engaging in any conduct—whether verbal, non-verbal, written, or physical—that insults, demeans, threatens, or othe...
+  #2 ✅ score=0.6004  source=07_Lab_Management_Regulations.md
+      preview: 6.  Maintain clean and clutter-free workspaces. Clean tools and equipment after use. 7.  Store glassware, chemicals, and...
+  #3 ✅ score=0.5902  source=01_Sexual_Misconduct_Response_Guideline.md
+      preview: **2. Scope** This Guideline is applicable to the following: a) All individuals within the VinUni Community ("the Communi...
+
+Relevant in top-3: 3/3 → Score: 2/2
+
+──────────────────────────────────────────────────────────────────────
+Q3: Medical program admission
+Query: What are the admission and language requirements for students entering medical programs at VinUni?
+Expected docs: Admissions_Regulations_GME_Programs, English_Language_Requirements, Tieu_Chuan_ANAT_PCCN
+
+Top-3 Retrieved Chunks:
+  #1 ✅ score=0.5800  source=02_Admissions_Regulations_GME_Programs.md
+      preview: Article 6: Admissions Process The admissions process for the GME Program at VinUniversity comprises the following steps:...
+  #2 ✅ score=0.5589  source=06_English_Language_Requirements.md
+      preview: # 1. PURPOSE  This guideline is to establish the English requirements for admission to the full-time undergraduate progr...
+  #3 ✅ score=0.5025  source=02_Admissions_Regulations_GME_Programs.md
+      preview: Article 3: Admissions Announcement Notice The GME Program admission notice adheres to the overarching criteria outlined ...
+
+Relevant in top-3: 3/3 → Score: 2/2
+
+──────────────────────────────────────────────────────────────────────
+Q4: Rule violation procedures
+Query: What procedures and consequences apply when a student breaks university rules?
+Expected docs: Sexual_Misconduct_Response_Guideline, Student_Grade_Appeal_Procedures, Student_Academic_Integrity, Student_Code_of_Conduct
+
+Top-3 Retrieved Chunks:
+  #1 ✅ score=0.5611  source=15_Student_Code_of_Conduct.md
+      preview: ### Appendix, Forms and Related documents [Appendix 1. Student Standard Behaviors](https://policy.vinuni.edu.vn/wp-conte...
+  #2 ✅ score=0.5477  source=15_Student_Code_of_Conduct.md
+      preview: 1. To engaging in any conduct—whether verbal, non-verbal, written, or physical—that insults, demeans, threatens, or othe...
+  #3 ✅ score=0.5409  source=15_Student_Code_of_Conduct.md
+      preview: [Skip to content](https://policy.vinuni.edu.vn/all-policies/student-affairs-regulations-code-of-conduct/#primary) - [Hom...
+
+Relevant in top-3: 3/3 → Score: 2/2
+
+──────────────────────────────────────────────────────────────────────
+Q5: Academic quality evaluation
+Query: How does VinUni evaluate and ensure the quality of its academic programs and teaching staff?
+Expected docs: Cam_Ket_Chat_Luong_Dao_Tao, Chat_Luong_Dao_Tao_Thuc_Te, Doi_Ngu_Giang_Vien_Co_Huu, Scholarship_Maintenance_Criteria
+
+Top-3 Retrieved Chunks:
+  #1 ❌ score=0.5478  source=15_Student_Code_of_Conduct.md
+      preview: ### Status and Details This document specifies rules and regulations that govern student affairs for programs of VinUniv...
+  #2 ❌ score=0.5236  source=14_Student_Award_Policy.md
+      preview: |3|Community Grant|Students with volunteer projects are<br>evaluated by the Student Affairs<br>Management Department in ...
+  #3 ❌ score=0.5073  source=13_Student_Academic_Integrity.md
+      preview: ## 10. Related Documents - Student Handbook - Academic Regulations - Student Affairs Regulations - Student Code of Condu...
+
+Relevant in top-3: 0/3 → Score: 0/2
+
+======================================================================
+TỔNG ĐIỂM RETRIEVAL: 8 / 10
+======================================================================

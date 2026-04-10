@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+.omx/
+.venv/
+src_w_solution/
+
+# Generated / Cache
+data/.embedding_cache.pkl
+data/*.pkl
+
+# Scratch scripts
+_patch_report*.py
+_check_cache.py
